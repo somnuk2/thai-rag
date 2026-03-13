@@ -1,0 +1,106 @@
+{
+  "supabase": {
+    "mode": "supabase",
+    "timestamp": "2026-03-12T18:42:24.345755",
+    "config": {
+      "model": "llama3",
+      "embedding_model": "mxbai-embed-large",
+      "top_k": 3
+    },
+    "tests": [
+      {
+        "test_num": 1,
+        "question": "คำถามที่ 1: วารสารวิทยาลัยราชสุดา ฉบับที่ 4 ฉบับที่ 1 ได้กล่าวถึงราษฎร์บุญญาอยู่ที่อีเมลใด?",
+        "ground_truth": " dui2543@hotmail.com",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.4305456578731537
+      },
+      {
+        "test_num": 2,
+        "question": "คำถามที่ 2: วัตถุประสงค์หลักของบทความที่กล่าวถึงในวารสารวิทยาลัยราชสุดาคืออะไร?",
+        "ground_truth": "เพื่ออธิบายใหผูอานเขาใจคํานิยาม คนหูหนวก และ ภาษามือ ในมุมมองทาง การแพทยและสังคม รวมถึงความหลากหลายของภาษามือ",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.3681895136833191
+      },
+      {
+        "test_num": 3,
+        "question": "คำถามที่ 3: ภาษามือมีรูปแบบต่างๆ ในประเทศไทย ได้แก่ รูปแบบใดบ้าง?",
+        "ground_truth": "ภาษาทาทาง, ภาษาครอบครัว, ภาษามือตามไวยากรณภาษาไทย, ภาษามือไทย",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.44470036029815674
+      },
+      {
+        "test_num": 4,
+        "question": "คำถามที่ 4: ปัจจัยใดบ้างที่ส่งผลให้เกิดความหลากหลายของภาษามือไทย?",
+        "ground_truth": "อาณาบริเวณ, เพศ, และอายุ",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.44360098242759705
+      },
+      {
+        "test_num": 5,
+        "question": "คำถามที่ 5: นโยบายใดที่สำคัญสำหรับการแก้ไขปัญหาการใชภาษามือไทยอย่างถูกต้อง?",
+        "ground_truth": "การผลักดันเปนนโยบายของรัฐบาลใหทุกองคกรที่เกี่ยวของ สนับสนุนใหเด็กหูหนวกพอแมผูปกครองและลามภาษามือใชภาษามือไทยอยางถูกตอง",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.37381890416145325
+      }
+    ],
+    "average_similarity": 0.41217108368873595
+  },
+  "local": {
+    "mode": "local",
+    "timestamp": "2026-03-12T18:42:39.348526",
+    "config": {
+      "model": "llama3",
+      "embedding_model": "mxbai-embed-large",
+      "top_k": 3
+    },
+    "tests": [
+      {
+        "test_num": 1,
+        "question": "คำถามที่ 1: วารสารวิทยาลัยราชสุดา ฉบับที่ 4 ฉบับที่ 1 ได้กล่าวถึงราษฎร์บุญญาอยู่ที่อีเมลใด?",
+        "ground_truth": " dui2543@hotmail.com",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.4305456578731537
+      },
+      {
+        "test_num": 2,
+        "question": "คำถามที่ 2: วัตถุประสงค์หลักของบทความที่กล่าวถึงในวารสารวิทยาลัยราชสุดาคืออะไร?",
+        "ground_truth": "เพื่ออธิบายใหผูอานเขาใจคํานิยาม คนหูหนวก และ ภาษามือ ในมุมมองทาง การแพทยและสังคม รวมถึงความหลากหลายของภาษามือ",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.3681895136833191
+      },
+      {
+        "test_num": 3,
+        "question": "คำถามที่ 3: ภาษามือมีรูปแบบต่างๆ ในประเทศไทย ได้แก่ รูปแบบใดบ้าง?",
+        "ground_truth": "ภาษาทาทาง, ภาษาครอบครัว, ภาษามือตามไวยากรณภาษาไทย, ภาษามือไทย",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.44470036029815674
+      },
+      {
+        "test_num": 4,
+        "question": "คำถามที่ 4: ปัจจัยใดบ้างที่ส่งผลให้เกิดความหลากหลายของภาษามือไทย?",
+        "ground_truth": "อาณาบริเวณ, เพศ, และอายุ",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.44360098242759705
+      },
+      {
+        "test_num": 5,
+        "question": "คำถามที่ 5: นโยบายใดที่สำคัญสำหรับการแก้ไขปัญหาการใชภาษามือไทยอย่างถูกต้อง?",
+        "ground_truth": "การผลักดันเปนนโยบายของรัฐบาลใหทุกองคกรที่เกี่ยวของ สนับสนุนใหเด็กหูหนวกพอแมผูปกครองและลามภาษามือใชภาษามือไทยอยางถูกตอง",
+        "ai_answer": "Error: Error code: 404 - {'error': {'message': \"model 'llama3' not found\", 'type': 'api_error', 'param': None, 'code': None}}",
+        "context_docs_count": 0,
+        "similarity_score": 0.37381890416145325
+      }
+    ],
+    "average_similarity": 0.41217108368873595
+  }
+}
